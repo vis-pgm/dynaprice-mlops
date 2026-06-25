@@ -216,3 +216,17 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# --- Custom MLOps Additions ---
+
+# Data & Models (Never push raw datasets or large models)
+data/
+*.csv
+*.parquet
+*.pkl
+*.model
+
+# MLflow Tracking (Keeps local experiment logs out of version control)
+mlruns/
+mlartifacts/
