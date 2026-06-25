@@ -230,3 +230,14 @@ data/
 # MLflow Tracking (Keeps local experiment logs out of version control)
 mlruns/
 mlartifacts/
+
+# Ignore Data
+data/
+
+# Ignore MLflow local tracking database
+mlruns/
+
+# Ignore Python cache
+__pycache__/
+.venv/
+venv/
